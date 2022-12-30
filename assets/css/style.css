@@ -144,6 +144,24 @@ nav ul button:hover {
   justify-content: center;
   line-height: 1.5;
 }
+.maincontainer {
+  display: flex;
+  padding: 2%;
+  padding-bottom: 6%;
+  align-items: center;
+  justify-content:space-between
+}
+.mainflex{
+  flex-direction: column;
+  width:20%;
+}
+
+.mainflex img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 7%;
+}
 
 
 
