@@ -70,12 +70,6 @@ nav ul button:hover {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 .headercontainer {
   margin: auto;
   padding: 0 40px;
@@ -93,6 +87,7 @@ nav ul button:hover {
   margin: auto;
   padding: 0 px;
   justify-content: center;
+
 }
 
 .aboutflex {
@@ -101,6 +96,7 @@ nav ul button:hover {
   padding: 2%;
   font-size: .9rem;
   line-height: 1.5;
+  align-items: center;
 }
 
 .aboutflex img {
@@ -111,8 +107,8 @@ nav ul button:hover {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 1)), url(../images/cutlawn3.jpg);
-  height: 30%;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .95)), url(../images/cutlawn3.jpg);
+  height: 75%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +118,7 @@ nav ul button:hover {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 33%;
+  top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -146,24 +142,46 @@ nav ul button:hover {
 }
 .maincontainer {
   display: flex;
-  padding: 2%;
-  padding-bottom: 6%;
+  padding-top: 7%;
+  padding-inline: 2%;
   align-items: center;
-  justify-content:space-between
+  justify-content:space-between;
 }
 .mainflex{
+  display: flex;
+  width:80%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-inline: 2%;
+}
+.mainminiflex {
+  text-align: center;
+  padding-inline: 2%;
+  cursor: pointer;
+}
+
+.mainflex img{
+  height: 25vw;
+}
+
+.asideflex{
   flex-direction: column;
   width:20%;
 }
 
-.mainflex img {
+.asideflex img {
   width: 100%;
   height: auto;
   border-radius: 15px;
   margin-bottom: 7%;
 }
 
+.dropdown-content a:hover {background-color: #ddd;}
 
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 @media (max-width: 768px) {
   
